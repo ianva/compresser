@@ -1,0 +1,18 @@
+---
+path:
+  yuicompressor: /Users/ianva/tools/yuicompressor/build/yuicompressor-2.4.7.jar
+  project: /Users/ianva/project/fd/trunk/js/lib/fdev-v4/widget/ui 
+  #project: /Users/ianva/project/tinymce_ali/tiny_mce
+type:
+  - js
+  - css
+charset: gbk
+postfix: -min
+merge:
+  - 
+    new: js/lib/fdev-v4/core/fdev.js
+    paths: 
+      - js/lib/fdev-v4/core/jquery-1.6.4.js  
+      - js/lib/fdev-v4/core/gears.js
+      - js/lib/fdev-v4/core/web.js
+      - js/lib/fdev-v4/core/config.js
